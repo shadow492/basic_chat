@@ -25,8 +25,8 @@ from langchain.chains import LLMChain,ConversationChain
 model_id = "FuseAI/FuseChat-Llama-3.2-1B-Instruct"
 a=0
 if a==0:
-    model = AutoModelForCausalLM.from_pretrained(f"cache1/model/{model_id}")
-    tokenizer = AutoTokenizer.from_pretrained(f"cache/tokenizer/{model_id}")
+    model = AutoModelForCausalLM.from_pretrained(model_id)
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
     a+=1
 
 
