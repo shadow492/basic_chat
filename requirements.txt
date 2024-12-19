@@ -1,4 +1,4 @@
 transformers
 langchain
 langchain_community
-pytorch
+torch
